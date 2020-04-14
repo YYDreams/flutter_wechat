@@ -21,29 +21,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-
-// void main() => runApp(
-//   MaterialApp(
-// debugShowCheckedModeBanner: false,
-// title: "wechat",
-// theme: defalutTheme,
-// //设置路由
-// routes: <String,WidgetBuilder>{
-//   "app":(BuildContext content) =>new IndexPage(), //入口
-//   "/friends":(_) => new WebviewScaffold(url: "https://weixin.qq.com/",
-//   // appBar: new AppBar(
-//   //   title: Text("微信朋友圈"),
-//   // ),
-//   withZoom: true, //缩放
-//   withLocalStorage: true, //本地储存
-  
-  
-//   ),
-//   // "search":(BuildContext contnet) => new Search();
-// },
-// home: new IndexPage(),
-
-
-//  ));
-

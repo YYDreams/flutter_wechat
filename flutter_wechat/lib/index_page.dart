@@ -60,7 +60,6 @@ int _currentIndex = 0; //记录当前选中的index
        type: BottomNavigationBarType.fixed,//图片和文字都显示
        currentIndex: _currentIndex, 
        onTap: ((index){
-
          _controller.jumpToPage(index);// 更改控制的当前PageView中显示的页面
          setState(() {
            _currentIndex = index;
